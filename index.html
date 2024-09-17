@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./lista-icon.png" type="image/x-icon">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <section class="organizar">
+        <h1 class="title">Lista de Tarefas</h1>
+        <div class="teste">
+            <div class="container-e container">
+                <h1 class="tarefas-titulo">Adicionar Tarefa:</h1>
+                <span class="entrada">
+                    <label for="e-tarefa">Digite a nova tarefa:</label>
+                    <input type="text" id="e-tarefa" placeholder="Ex.: Comprar Ovos">
+                </span>
+                <span class="entrada">
+                    <label for="e-data">Digite a data da tarefa:</label>
+                    <input type="date" id="e-data">
+                </span>
+                <button type="button" class="add-tarefa" id="tarefa-btn">Adicionar Tarefa</button>
+            </div>
+            <div class="container-t container">
+                <h1 class="tarefas-titulo">Tarefas:</h1>
+                <section class="tarefas">
+                    <ul class="tarefa" id="tarefa">
+                        
+                    </ul>
+                    
+                </section>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+</html>
